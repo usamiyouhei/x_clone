@@ -9,6 +9,7 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ListAltIcon from "@mui/icons-material/ListAlt";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import Button from '@mui/material/Button';
 
 const Sidebar = () => {
   return (
@@ -31,6 +32,7 @@ const Sidebar = () => {
       {/* sidebarOption */}
 
       {/* twitter Button */}
+      <Button variant='outlined' className='sidebar__post'>Postする</Button>
     </div>
   )
 }
